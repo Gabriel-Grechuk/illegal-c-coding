@@ -6,15 +6,16 @@
 // processador x64.
 typedef unsigned long int pointer;
 
-// O array dinâmico de memória e umavariável para guardar o número de 
+// O array dinâmico de memória e uma variável para guardar o número de 
+// alocações de memória.
 pointer *allocated_memory = NULL;
 unsigned int count = 0;
 
 
 
 // Nosso próprio alocador de memória.
-// Com Assim podemos registrar os endereços alocados e retornar o espaço
-// solicitado
+// Assim podemos registrar os endereços alocados e retornar o espaço
+// solicitado.
 void* galloc(size_t size)
 {
   printf("Allocating memory...\n");
@@ -41,7 +42,7 @@ void* galloc(size_t size)
 
 
 // Essa função deve ser chamada no final do programa, assim podemos liberar
-// toda a memória que utilizamos no nosso programa.
+// toda a memória que alocamos.
 void free_all(void)
 {
   for (int i = 0; allocated_memory[i] != (pointer) NULL; i++)
