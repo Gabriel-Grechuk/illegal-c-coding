@@ -8,8 +8,8 @@ E o objetivo desse repositório, é justamente ter um ambiente onde eu possa cri
 
 Mas...
 ### !!ATENÇÃO!!!
-Você não deve usar os códigos desse repositório sob NENHUMA circunstância em projetos reais. Você pode estar colocando a integridade dos seus dados, a segurança do seu sistema, e até mesmo a sua máquina em risco.
-Para maior segurança, teste em equipamentos rodando Linux, com processador x86_64 e com mais de 4GB de RAM (que é a configuração da minha máquina).
+Você não deve usar os códigos desse repositório sob NENHUMA circunstância em projetos reais. Você pode estar colocando a integridade dos seus dados, a segurança do seu sistema, a sua vida, e até mesmo a sua máquina em risco.
+Para maior segurança, teste em equipamentos rodando Linux, com processador x86_64 e com mais de 4GB de RAM (que é a configuração da minha máquina), e com menos 5 de sanidade(configuração de minha pessoa).
 
 ## Rodando os códigos
 Para rodar algum dos exemplos, basta entrar na pasta e rodar o compilador gcc. ex:
